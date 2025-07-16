@@ -2,7 +2,7 @@ from src.ai_prompts.text_prompt import SYSTEM_PROMPT
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 import logging
-from src.cache.connection import SemanticCache
+from src.cache.semantic_cache import SemanticCache
 
 # Load environment variables
 load_dotenv()

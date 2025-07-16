@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from langchain_qdrant import QdrantVectorStore
 from src.ai_prompts.pdf_prompt import pdf_processor_system_prompt
 from langchain_openai import OpenAIEmbeddings, OpenAI
-from src.cache.connection import SemanticCache
+from src.cache.semantic_cache import SemanticCache
 from qdrant_client import QdrantClient, models
 import logging
 
